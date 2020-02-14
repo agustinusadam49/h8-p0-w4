@@ -5,9 +5,28 @@ function countProfit(shoppers) {
                      ];
   
     // you can only write your code here!
+    var obj = [
+        {
+            product: 'Sepatu Stacattu', 
+            shoppers: [], 
+            leftOver: 0, 
+            totalProfit: 0 
+        }, 
+        {
+            product: 'Baju Zoro', 
+            shoppers: [], 
+            leftOver: 0, 
+            totalProfit: 0
+        }, 
+        {
+            product: 'Sweater Uniklooh', 
+            shoppers: [], 
+            leftOver: 0, 
+            totalProfit: 0
+        }
+    ]
     
     if (shoppers.length !== 0) {
-        var obj = [{product: 'Sepatu Stacattu', shoppers: [], leftOver: 0, totalProfit: 0 }, {product: 'Baju Zoro', shoppers: [], leftOver: 0, totalProfit: 0}, {product: 'Sweater Uniklooh', shoppers: [], leftOver: 0, totalProfit: 0}]
 
         for (i = 0; i < obj.length; i++)  {
             obj[i].leftOver = listBarang[i][2]
@@ -30,7 +49,7 @@ function countProfit(shoppers) {
         } 
 
         return obj
-        
+
     } else {
         var emptyArr = []
         return emptyArr
