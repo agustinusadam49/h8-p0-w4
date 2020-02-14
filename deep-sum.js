@@ -5,7 +5,6 @@ function deepSum (arr) {
         for (i = 0; i < arr.length; i++) {
             for (j = 0; j < arr[i].length; j++) {
                 for (k = 0; k < arr[i][j].length; k++) {
-                    // console.log(arr[i][j][k]);
                     sum += arr[i][j][k]    
                 }
             }
