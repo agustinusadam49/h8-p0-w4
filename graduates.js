@@ -6,7 +6,6 @@ function graduates (students) {
     var tigers = []
     var obj = {}
     for (i =0; i < students.length; i++) {
-      // console.log(students[i]);
       if (students[i].class === 'foxes') {
         if (students[i].score > 75) {
           foxes.push(students[i])
