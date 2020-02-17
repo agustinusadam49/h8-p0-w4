@@ -4,7 +4,7 @@ function deepSum (arr) {
         var sum = 0
         for (i = 0; i < arr.length; i++) {
             for (j = 0; j < arr[i].length; j++) {
-                for (k = 0; k < arr[i][j].length; k++) {
+                for (k = 0; k < arr[i][j].length; k++) {    
                     sum += arr[i][j][k]    
                 }
             }
